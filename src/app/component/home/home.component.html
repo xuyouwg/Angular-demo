@@ -1,0 +1,55 @@
+<!-- 轮播图 -->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+    <div class="swiper-slide" *ngFor="let item of imgUrl"><img src={{item}} alt=""></div>
+  </div>
+  <!-- Add Pagination -->
+  <div class="swiper-pagination"></div>
+</div>
+
+<!--  电台 -->
+<div class="mod_twocol_list mod_twocol_list_normal">
+  <h2 class="list_title">电台</h2>
+  <ul id="radio_wrapper" class="list_container">
+
+    <li data-tjname="recom_radio" class="js_play_radio">
+      <a class="list_main" href="#">
+        <div class="list_media">
+          <img class="list_pic" src="../../../assets/images/radio_1.jpg" alt="">
+          <span class="icon icon_play"></span>
+        </div>
+        <div class="list_info">
+          <h3 class="list_tit tit_two_row">热歌</h3>
+        </div>
+      </a>
+    </li>
+
+    <li data-tjname="recom_radio" class="js_play_radio">
+      <a class="list_main" href="#">
+        <div class="list_media">
+          <img class="list_pic" src="../../../assets/images/radio_2.jpg" alt="">
+          <span class="icon icon_play"></span>
+        </div>
+        <div class="list_info">
+          <h3 class="list_tit tit_two_row">一人一首招牌歌</h3>
+        </div>
+      </a>
+    </li>
+
+  </ul>
+</div>
+<!-- 热门歌单 -->
+<div class="mod_twocol_list mod_twocol_list_special">
+    <h2 class="list_title">热门歌单</h2>
+    <ul id="songlist_wrapper" class="list_container">        
+    </ul>
+    <p class="list_more"><a href="javascript:;">去客户端发现更多好音乐 &gt;</a></p>
+</div>
+<!-- 首页底部 -->
+<footer class="mod_footer">
+    <div class="version_tab">
+        <a data-tjname="go_pc" href="http://y.qq.com/?ADTAG=myqq&amp;nomobile=1#type=index">查看电脑版网页</a>
+    </div>
+    <div class="footer_logo">QQ音乐</div>
+    <p class="copyright">Copyright © 1998 - <span id="js_cpright_year">2018</span> Tencent. All Rights Reserved.</p>
+</footer>

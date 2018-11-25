@@ -1,0 +1,44 @@
+<!-- 搜索框 -->
+<div class="search_page">
+    <div class="mod_search_bar">
+        <div id="input_wrap" class="search_bar_cont">
+            <form id="search_form" method="get" action="#">
+                <input id="search_input" class="search_input" type="search" placeholder="搜索歌曲、歌单、专辑" (click)='fn1()' (keydown)='fn2()' >
+                <span class="icon icon_search">搜索</span>
+                <span id="del_btn" class="icon icon_delete" style="display: none;" (click)='fn3()'>删除
+                </span>
+            </form>
+        </div>
+        <div id="cancel_btn" class="search_bar_tip_text" style="display: none;" (click)='fn4()'>取消</div>
+    </div>
+
+    <!-- 热门搜索 -->
+    <div id="hot_keys" class="mod_search_result" style="display: block">
+        <h3 class="result_tit">热门搜索</h3>
+        <div class="result_tags">
+            <a href="javascript:;" class="tag_s tag_hot">那吾克热见面吧电台</a>
+
+
+            <a href="javascript:;" class="js_keyword tag_s">一起走过的日子 </a>
+
+
+            <a href="javascript:;" class="js_keyword tag_s">为你我受冷风吹 </a>
+
+
+            <a href="javascript:;" class="js_keyword tag_s">LOST RIVERS </a>
+
+
+            <a href="javascript:;" class="js_keyword tag_s">东西 </a>
+
+
+            <a href="javascript:;" class="js_keyword tag_s">你一定要幸福 </a>
+
+
+            <a href="javascript:;" class="js_keyword tag_s">只对你有感觉 </a>
+
+
+            <a href="javascript:;" class="js_keyword tag_s">TOXIC </a>
+
+        </div>
+    </div>
+</div>

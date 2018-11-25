@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+} 
+body {
+    font: 12px/1.5 "hiragino sans gb",arial;
+    color: #555;
+    background: #f4f4f4;
+}
+.wrap {
+    width: 100%;
+    overflow: hidden;
+}
+.mod_header {
+    position: relative;
+    height: 44px;
+    background: #31c27c;
+}
+.mod_header .music_logo {
+    float: left;
+    display: block;
+    width: 90px;
+    height: 25px;
+    margin: 9px 0 0 10px;
+    background-image: url(./assets/images/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+.mod_header .btn_download {
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+    top: 8px;
+    height: 28px;
+    padding: 0 12px;
+    line-height: 28px;
+    border-radius: 99px;
+    font-size: 14px;
+    background: #149c5a;
+    color: #fff;
+}
